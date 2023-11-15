@@ -1,0 +1,296 @@
+.ib{
+  width: 1300px;
+  height: 200px;
+  margin-left: 60PX;
+  font-size: 7em;
+  color: darkblue;
+}
+*{
+  background-color: #f5f5f5;
+}
+body{
+  background-color:  #f5f5f5;
+}
+#ib{
+  font-size: 1em; 
+}
+#ibk{
+  line-height: 100px;
+  font-size: 2em; 
+}
+.maiden{
+  transform: translateY(124px);
+  margin-left: 50px;
+}
+.star{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 2px solid blue;
+  position: relative;
+  left: 600px;
+  top: 40px;
+  padding: 2px;
+  padding-top: 15px !important;
+  text-align: center;
+  animation: star  3s infinite;
+}
+.sept{
+  position: relative;
+  top: -40px;
+  transform: translateX(800px) !important;
+}
+.buy{
+  width: 600px !important;
+  height: 40px;
+  background-color: #fdb915;
+  text-align: center;
+  text-decoration: none;
+  transform: translateX(-700px);
+  padding-top: 5px;
+  
+}
+.bt{
+  margin-left: 800px;
+  display: flex;
+  gap: 20px;
+}
+.buys{
+  width: 600px !important;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 5px;
+  border: 2px solid black;
+  margin-left: -700px;
+}
+.dc{
+  width: 1100px;
+  height: 300px;
+  background: linear-gradient(to right,#fdb915, blue 100%) !important;
+  text-align: center;
+  padding: 50px;
+  font-size: 30px;
+  color: white;
+}
+.bracket{
+  margin: 100px;
+}
+#stars{
+  animation: stars 2s infinite;
+}
+@keyframes stars {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+#nav{
+  margin-left: 200px;
+  display: flex;
+  gap: 30px;
+  width: 1300px;
+  height: 50px;
+  border: 2px solid transparent;
+  /* position: sticky;
+  top: 30px; */
+}
+.a{
+  text-decoration: none;
+  position: relative;
+  left: 350px;
+  font-size: 40px;
+  color: black;
+}
+.b{
+  background-color: #fdb915;
+  font-size: 20px !important;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.aboutib{
+  width: 50%;
+}
+.aboutib1{
+  width: 50%;
+}
+.contain{
+  display: flex;
+  margin-left: 20px;
+}
+.bo{
+  color: #fdb915;
+  font-size: 5em;
+line-height: 70px;
+
+}
+.tech{
+  color: #224093;
+  font-size: 5em;
+line-height: 40px;
+}
+#hr{
+  color: #fdb915 !important;
+}
+.welcome{
+  color: #224093;
+  font-size: 22px;
+  font-family: Jost;
+  line-height: 20px;
+}
+hr{
+  color: #fdb915 !important;
+}
+.ven{
+  color: #224093;
+  font-family: Jost;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 72px;
+}
+.corn{
+  margin-left: 35px;
+}
+.speakers{
+  color: #224093;
+  font-family: Jost;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 72px;
+  position: relative;
+  top: 20px;
+}
+.viw{
+  color: #224093;
+  font-family: Jost;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16x;
+  position: relative;
+  top: 50px;
+}
+.flexcon{
+  display: flex;
+  gap: 10px;
+}
+.akin{
+  margin-left: 100px;
+}
+.ht{
+  color: #224093;
+  font-family: Jost;
+font-size: 30px;
+line-height: 30px;
+font-weight: 500;
+margin-left: 50px;
+}
+p{
+  color: #224093;
+  font-family: Jost;
+font-size: 18px;
+line-height: 27px;
+font-weight: 400;
+margin-left: 50px;
+margin-top: -5px;
+
+}
+.akins{
+  margin-top: -20px;
+}
+.femi{
+  margin-left: -200px;
+}
+.speaker-container{
+  margin-left: -40px;
+}
+.ticket{
+  margin-top: 50px;
+  width: 1200px;
+  margin-left: 50px;
+  border-bottom: 2px solid #fdb915;
+}
+.tic{
+  color: #224093;
+  font-family: Jost;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 72px;
+}
+.secure{
+  margin-top: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+.now{
+  width: 500px;
+}
+.your{
+  color: black;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: Jost;
+}
+.gift{
+  transform: translate(-90px, -110px);
+}
+.prices{
+  font-family: Jost;
+  line-height: 52.5px;
+  font-weight: 700;
+  font-size: 35px;
+  color: #224093;
+}
+.tion{
+  margin-left: 300px;
+}
+.th{
+  color: white;
+  background-color: inherit;
+  font-size: 50px;
+  font-family: Jost;
+font-weight: 700;
+}
+.jh{
+  color: white;
+  background-color: inherit;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Jost;
+}
+.yh{
+  padding-top: 30px;
+  background-color: inherit;
+}
+.tht{
+  color: white;
+  background-color: inherit;
+  font-size: 50px;
+  font-family: Jost;
+font-weight: 700;
+}
+.uh{
+  color: white;
+  background-color: inherit;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Jost;
+}
+.doings1{
+  width: 300px;
+  height: 600px;
+  background-color:  #f5f5f5;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+.doings1:hover{
+  background-color: #008000;
+  border: 2px solid #008000;
+  cursor: pointer;
+  color: inherit;
+  color: white;
+}
+.doingscontain{
+  margin-top: 50px;
+}
